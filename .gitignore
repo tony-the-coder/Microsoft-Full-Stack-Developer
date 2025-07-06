@@ -1,1 +1,76 @@
-/Older Projects
+# Visual Studio
+.vs/
+bin/
+obj/
+[Bb]in/
+[Oo]bj/
+
+# Azure Functions
+.azurefunctions/
+
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# .NET
+project.lock.json
+project.assets.json
+*.nuget.props
+*.nuget.targets
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.builds
+*.log
+*.tlog
+*.tmp
+*.bak
+*.cache
+*.obj
+*.pdb
+*.opendb
+*.VC.db
+*.sdf
+*.vshost.exe
+*.vshost.exe.config
+*.datasource
+*.mdf
+*.ldf
+*.publish.xml
+*.vspscc
+*.vssscc
+*.builds
+*.docstates
+*.opensdf
+*.VC.opendb
+*.VC.upgradeLog
+*.VC.vcproj
+*.aps
+*.bsc
+*.sbr
+*.res
+*.pch
+*.idb
+*.ipch
+*.iobj
+*.testlog
+*.testrunconfig
+*.trx
+*.webtest
+*.orderedtest
+*.coverage
+*.coveragexml
+*.rptproj.user
+*.rlinq.user
+*.dbmdl.user
+*.dbproj.user
+*.sqlproj.user
+*.dtproj.user
+*.dtsxproj.user
+*.dwproj.user
+*.bimlproj.user
+*.rdl.data
+*.rdlc.data/Older Projects
+/Older Projects/
