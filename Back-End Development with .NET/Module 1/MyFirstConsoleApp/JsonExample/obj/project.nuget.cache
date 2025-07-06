@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "kC6bBzR9RVA=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\tonyt\\Desktop\\Development\\Microsoft-Full-Stack-Developer\\Back-End Development with .NET\\Module 1\\MyFirstConsoleApp\\JsonExample\\JsonExample.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\tonyt\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

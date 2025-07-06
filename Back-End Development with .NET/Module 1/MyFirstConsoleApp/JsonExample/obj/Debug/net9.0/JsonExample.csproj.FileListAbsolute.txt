@@ -1,0 +1,17 @@
+C:\Users\tonyt\Desktop\Development\Microsoft-Full-Stack-Developer\Back-End Development with .NET\Module 1\MyFirstConsoleApp\JsonExample\bin\Debug\net9.0\JsonExample.exe
+C:\Users\tonyt\Desktop\Development\Microsoft-Full-Stack-Developer\Back-End Development with .NET\Module 1\MyFirstConsoleApp\JsonExample\bin\Debug\net9.0\JsonExample.deps.json
+C:\Users\tonyt\Desktop\Development\Microsoft-Full-Stack-Developer\Back-End Development with .NET\Module 1\MyFirstConsoleApp\JsonExample\bin\Debug\net9.0\JsonExample.runtimeconfig.json
+C:\Users\tonyt\Desktop\Development\Microsoft-Full-Stack-Developer\Back-End Development with .NET\Module 1\MyFirstConsoleApp\JsonExample\bin\Debug\net9.0\JsonExample.dll
+C:\Users\tonyt\Desktop\Development\Microsoft-Full-Stack-Developer\Back-End Development with .NET\Module 1\MyFirstConsoleApp\JsonExample\bin\Debug\net9.0\JsonExample.pdb
+C:\Users\tonyt\Desktop\Development\Microsoft-Full-Stack-Developer\Back-End Development with .NET\Module 1\MyFirstConsoleApp\JsonExample\obj\Debug\net9.0\JsonExample.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tonyt\Desktop\Development\Microsoft-Full-Stack-Developer\Back-End Development with .NET\Module 1\MyFirstConsoleApp\JsonExample\obj\Debug\net9.0\JsonExample.AssemblyInfoInputs.cache
+C:\Users\tonyt\Desktop\Development\Microsoft-Full-Stack-Developer\Back-End Development with .NET\Module 1\MyFirstConsoleApp\JsonExample\obj\Debug\net9.0\JsonExample.AssemblyInfo.cs
+C:\Users\tonyt\Desktop\Development\Microsoft-Full-Stack-Developer\Back-End Development with .NET\Module 1\MyFirstConsoleApp\JsonExample\obj\Debug\net9.0\JsonExample.csproj.CoreCompileInputs.cache
+C:\Users\tonyt\Desktop\Development\Microsoft-Full-Stack-Developer\Back-End Development with .NET\Module 1\MyFirstConsoleApp\JsonExample\obj\Debug\net9.0\JsonExample.dll
+C:\Users\tonyt\Desktop\Development\Microsoft-Full-Stack-Developer\Back-End Development with .NET\Module 1\MyFirstConsoleApp\JsonExample\obj\Debug\net9.0\refint\JsonExample.dll
+C:\Users\tonyt\Desktop\Development\Microsoft-Full-Stack-Developer\Back-End Development with .NET\Module 1\MyFirstConsoleApp\JsonExample\obj\Debug\net9.0\JsonExample.pdb
+C:\Users\tonyt\Desktop\Development\Microsoft-Full-Stack-Developer\Back-End Development with .NET\Module 1\MyFirstConsoleApp\JsonExample\obj\Debug\net9.0\JsonExample.genruntimeconfig.cache
+C:\Users\tonyt\Desktop\Development\Microsoft-Full-Stack-Developer\Back-End Development with .NET\Module 1\MyFirstConsoleApp\JsonExample\obj\Debug\net9.0\ref\JsonExample.dll
+C:\Users\tonyt\Desktop\Development\Microsoft-Full-Stack-Developer\Back-End Development with .NET\Module 1\MyFirstConsoleApp\JsonExample\bin\Debug\net9.0\Newtonsoft.Json.dll
+C:\Users\tonyt\Desktop\Development\Microsoft-Full-Stack-Developer\Back-End Development with .NET\Module 1\MyFirstConsoleApp\JsonExample\obj\Debug\net9.0\JsonExample.csproj.AssemblyReference.cache
+C:\Users\tonyt\Desktop\Development\Microsoft-Full-Stack-Developer\Back-End Development with .NET\Module 1\MyFirstConsoleApp\JsonExample\obj\Debug\net9.0\JsonExam.8DACB2F8.Up2Date
