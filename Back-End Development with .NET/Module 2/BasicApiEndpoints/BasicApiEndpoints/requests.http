@@ -1,0 +1,23 @@
+### GET - Retrieve all products
+GET http://localhost:5173/api/products
+
+###
+
+### POST - Add a new product
+POST http://localhost:5173/api/products
+Content-Type: application/json
+
+"Grape"
+
+###
+
+### PUT - Update an existing product
+PUT http://localhost:5173/api/products/1
+Content-Type: application/json
+
+"Updated Apple"
+
+###
+
+### DELETE - Delete a product by ID
+DELETE http://localhost:5173/api/products/1
