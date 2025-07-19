@@ -15,9 +15,9 @@ app.UseHttpLogging();
 
 
 app.Use(async (context, next) =>{
-    //Logic can go before or after the next middleware
+    Console.WriteLine("Logic before.");
     await next.Invoke();
-    // This is where you could log the response, but in this case, it does nothing
+    Console.WriteLine("Logic after.");
 });
 
 app.MapGet("/", () => "Hello World!");
