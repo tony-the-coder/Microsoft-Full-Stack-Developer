@@ -1,0 +1,6 @@
+@APIMIDDLEWAREAPI_HostAddress = http://localhost:5098
+
+GET {{APIMIDDLEWAREAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

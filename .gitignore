@@ -5,16 +5,7 @@ obj/
 [Bb]in/
 [Oo]bj/
 
-# Azure Functions
-.azurefunctions/
-
-# Node.js
-node_modules/
-npm-debug.log
-yarn-error.log
-
-# .NET
-project.lock.json
+# .NET / Build Artifacts
 project.assets.json
 *.nuget.props
 *.nuget.targets
@@ -31,30 +22,18 @@ project.assets.json
 *.obj
 *.pdb
 *.opendb
-*.VC.db
-*.sdf
+*.VC.db # Keep for Roslyn analysis cache sometimes
+*.sdf   # Can remove if you know you don't use local SQL CE databases
+*.mdf   # Local SQL Server database files - typically not source controlled for API projects
+*.ldf   # Local SQL Server log files - typically not source controlled for API projects
+*.publish.xml # Publish profiles - often sensitive or deployment-specific, usually excluded
+
+# Visual Studio specific (can keep these as they're harmless)
 *.vshost.exe
 *.vshost.exe.config
 *.datasource
-*.mdf
-*.ldf
-*.publish.xml
-*.vspscc
-*.vssscc
-*.builds
-*.docstates
-*.opensdf
-*.VC.opendb
-*.VC.upgradeLog
-*.VC.vcproj
-*.aps
-*.bsc
-*.sbr
-*.res
-*.pch
-*.idb
-*.ipch
-*.iobj
+
+# Test Results
 *.testlog
 *.testrunconfig
 *.trx
@@ -62,15 +41,12 @@ project.assets.json
 *.orderedtest
 *.coverage
 *.coveragexml
-*.rptproj.user
-*.rlinq.user
-*.dbmdl.user
-*.dbproj.user
-*.sqlproj.user
-*.dtproj.user
-*.dtsxproj.user
-*.dwproj.user
-*.bimlproj.user
-*.rdl.data
-*.rdlc.data/Older Projects
-/Older Projects/
+
+# Rider (JetBrains IDE)
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Misc
+*.user
