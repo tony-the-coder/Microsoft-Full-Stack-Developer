@@ -10,6 +10,9 @@ builder.Services.AddHttpLogging((o) => {});
 
 var app = builder.Build();
 
+
+// This is middleware moved to before the logging to show what happens before and after the logging middleware is executed and shows that the HTTPLogging middleware is executed after the logic before then runs the logging then runs the logic after.
+
 app.Use(async (context, next) =>{
     Console.WriteLine("Logic before.");
     await next.Invoke();
@@ -21,7 +24,11 @@ app.UseHttpLogging();
 
 // This is a basic middleware that does nothing, but it could be extended to log requests and responses, but in this case, it does nothing; next is the next middleware in the pipeline
 
-
+// app.Use(async (context, next) =>{
+//     Console.WriteLine("Logic before.");
+//     await next.Invoke();
+//     Console.WriteLine("Logic after.");
+// });
 
 
 app.MapGet("/", () => "Hello World!");
