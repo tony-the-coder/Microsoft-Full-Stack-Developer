@@ -10,15 +10,19 @@ builder.Services.AddHttpLogging((o) => {});
 
 var app = builder.Build();
 
-app.UseHttpLogging();
-// This is a basic middleware that does nothing, but it could be extended to log requests and responses, but in this case, it does nothing; next is the next middleware in the pipeline
-
-
 app.Use(async (context, next) =>{
     Console.WriteLine("Logic before.");
     await next.Invoke();
     Console.WriteLine("Logic after.");
 });
+
+
+app.UseHttpLogging();
+
+// This is a basic middleware that does nothing, but it could be extended to log requests and responses, but in this case, it does nothing; next is the next middleware in the pipeline
+
+
+
 
 app.MapGet("/", () => "Hello World!");
 app.MapGet("/hello", () => "This is the hello route.");
